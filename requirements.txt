@@ -3,4 +3,4 @@ sqlalchemy
 psycopg2-binary
 fastapi
 uvicorn
-python-dotenv
+python-doten
