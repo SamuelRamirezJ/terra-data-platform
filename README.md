@@ -34,3 +34,16 @@ Raw Data → Python ETL → PostgreSQL → Analytics → API
 ## Status
 
 🚧 Currently under development.
+
+## Run Locally
+
+```bash
+git clone https://github.com/SamuelRamirezJ/terra-data-platform.git
+cd terra-data-platform
+
+pip install -r requirements.txt
+
+python src/generate_data.py
+python src/etl.py
+
+uvicorn src.api:app --reload
